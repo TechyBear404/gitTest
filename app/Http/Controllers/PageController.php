@@ -11,7 +11,6 @@ class PageController extends Controller
     {
         return view('contact.index');
     }
-}
     public function showAbout()
     {
         return view('about');
