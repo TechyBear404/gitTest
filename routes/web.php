@@ -21,4 +21,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/contact', [PageController::class, 'index'])->name('contact.index');
 });
 
+
 require __DIR__ . '/auth.php';
+
